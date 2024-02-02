@@ -1,0 +1,215 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-size:120%;
+}
+/*titre comme leader*/
+
+header{
+    width:100%;
+    height:20%;
+    background-color:yellow;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    position:sticky;
+    top:0%;
+    z-index:999;
+}
+
+header .non .xee{
+    background-color:black;
+}
+
+header .non .xee h1{
+    background-color:white;
+    color:black;
+    padding:5px;
+    text-transform:uppercase;
+    font-weight:900;
+    font-style:normal;
+    text-align:center;
+    text-shadow:4px 3px 5px yellow;
+}
+
+header .non .nik img{
+    width:150px;
+    height:90px;
+    display:block;
+    cursor:pointer;
+}
+
+/*partie nav */
+
+
+nav {
+    background-color:#567854;
+    height:35%;
+
+}
+nav section .wolf ul li{
+    list-style:none;
+    display:inline-block;
+    
+}
+
+nav section .wolf ul li a{
+     display:block;
+    margin-left:30px;
+    color:black;
+    border: 10px solid yellow;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:bold;
+    background-color:white;
+    margin-top:20px;
+}
+nav section .wolf{
+    background-color:black;
+    height:70px;
+    margin-top:5px;
+}
+nav section .lete h4{
+    font-style:normal;
+    font-size:30px;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-weight:800;
+    
+}
+nav section .lete p{
+    
+    font-style:normal;
+    font-size:30px;
+    text-decoration:none;
+    font-weight:800;
+}
+nav section .lete{
+    padding:15px;
+}
+
+nav section .lete p a:hover{
+    color:yellow;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:800;
+}
+
+nav section .lete p a:visited{
+    color:red;
+    
+    }
+    
+nav section .tyole{
+    background-color:#458379;
+}
+table {
+    border-collapse:collapse;
+    background-color:white;
+    
+}
+th,td{
+    border:1px solid #998943;
+    color:black;
+}
+
+
+/*les partie fichier*/
+
+nav section .der{
+    background-image:url("image/lare.png");
+    display:inline-block;
+    height:25%;
+    width:100%;
+    padding:1%;
+}
+
+nav section .der h4{
+    background-color:#782343;
+    color:white;
+    font-size:30px;
+    font-weight:900;
+    font-style:normal;
+    text-transform:uppercase;
+}
+nav section .der p{
+    background-color:#783443;
+    font-size:30px;
+    font-style:normal;
+    font-weight:300;
+    color:white;
+}
+
+nav section .der p a{
+    background-color:green;
+    color:white;
+    border: 3px solid white;
+    font-style:italic;
+}
+
+/* aux niveaux de footer*/
+footer {
+    background-color:#f5f5f5;
+    text-align:center;
+    padding:10px;
+    height:25%;
+}
+
+/*fichier href*/
+#were{
+    width:70px;
+    height:85px;
+}
+
+.ase section .suit  #were{
+    background-image:url("image/pdf3.jpeg");
+    display:inline-block;
+    background-size:100%;
+}
+.ase section .suit  a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+}
+.ase section .suit #mid{
+    border :1px solid #884556;
+    background-color:#905546;
+    
+}
+.ase{
+    background-color:#898989;
+    width:100%;
+    height:10%;
+    padding:1%;
+}
+.ase section .suit  p{
+    font-weight:900;
+    font-style:normal;
+    font-size:120%;
+}
+
+/* contact */
+
+  .mait{
+            background-color:#999;
+            margin-left:8px;
+            margin-top:8px;
+            font-size:120%;
+            height:160px;
+            padding:20px;
+            width:450px;
+   }
+   
+   #news3,#news1,#news2{
+    border: 2px solid black;
+    display:inline-block;
+    width:150px;
+    height:50px;
+    background-color:#000;
+    color:white;
+    padding-top:10px;
+    margin-left:100px;
+    text-decoration:none;
+    box-shadow:2px 2px 2px white
+}
